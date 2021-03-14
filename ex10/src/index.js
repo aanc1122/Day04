@@ -1,11 +1,10 @@
-function main() {
+function main(){
 
     var myFirstName = "Amela";
     var myLastName = "Nuhanović";
     var myHomeTown = "Konjic";
 
     return {
-
         myFirstName,
         myLastName,
         myHomeTown
@@ -13,4 +12,4 @@ function main() {
 }
 
 console.log(main());
-module.export = main;
+module.exports = main;
